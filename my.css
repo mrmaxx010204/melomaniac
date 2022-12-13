@@ -1,0 +1,79 @@
+body {
+  background-image: url("yy.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.container {
+  background-color: transparent;
+  opacity: 0.7;
+}
+#carouselExampleFade {
+  opacity: 1;
+}
+#c1 h1 {
+  font-size: 70px;
+  border-radius: 5px;
+}
+#c2 {
+  border-radius: 5px;
+  height: 380px;
+}
+.card {
+  border: none;
+}
+#card h2 {
+  text-decoration: underline;
+}
+#card a:link {
+  text-decoration: none;
+  color: rgb(139, 84, 84);
+}
+
+#card a:visited {
+  text-decoration: none;
+  color: rgb(139, 84, 84);
+}
+
+#card a:hover {
+  text-decoration: underline;
+}
+.cap {
+  font-size: 30px;
+}
+#c3 {
+  border-radius: 5px;
+  height: 380px;
+}
+#c3 a:link {
+  text-decoration: none;
+  color: rgb(87, 87, 87);
+}
+
+#c3 a:visited {
+  text-decoration: none;
+  color: rgb(87, 87, 87);
+}
+
+#c3 a:hover {
+  text-decoration: none;
+}
+/* .img{
+    transition: 6s;
+   
+}
+.img:hover{
+    transform: rotate(360);
+} */
+.img{
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
